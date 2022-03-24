@@ -12,10 +12,10 @@ function App() {
   // useEffect( () => {
   // console.log("only for this dummy state")
   // }, [dummyState])
-  // const updateCount = () => {
-  // // setCount(count + 1)
-  // getData()
-  // }
+  const updateCount = () => {
+  // setCount(count + 1)
+  getData()
+  }
   const getData = () => {
   console.log("api loading...")
   setLoading(true)
