@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  text-align: justify;
+}
+.App >div{
+  width: 50%;
 }
 
 .App-logo {
@@ -35,4 +38,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.subdiv{
+  flex-grow: 1;
+  flex-basis: 50%;
 }

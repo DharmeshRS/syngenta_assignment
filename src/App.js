@@ -31,6 +31,7 @@ function App() {
   .then( (response) => {
   response.json().then( (data) => {
   // console.log(data)
+  setBrowserInfo(data)
   console.log(data)
   })
   })
@@ -38,10 +39,15 @@ function App() {
   return (
     <div className="App">
     <div className='maindiv'>
-       <div>
-
+       <div className="subdiv">
+            <div><span>Browser Family :</span><span>{browserInfo.browser_family}</span></div>
+            <div><span>Browser Version :</span><span>{browserInfo.client.version}</span></div>
+            <div><span>Browser Device type :</span><span>{browserInfo.device.type}</span></div> 
+            <div><span>Browser OS :</span><span>{browserInfo.os.name}</span></div>
+            <div><span>Browser OS family :</span><span>{browserInfo.os_family}</span></div>
+            <div><span>User Agent :</span><span>{browserInfo.user_agent}</span></div>
       </div>
-      <div>
+      <div className="subdiv" >
               No. of Visitors of Our Website :  <h1>{count}</h1>
         </div>
     </div>
