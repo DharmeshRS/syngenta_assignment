@@ -44,3 +44,14 @@ step 4:Now, we want to fetch this app using useEffect and update the count using
 //     </div>
 //   );
 // }
+
+var info={
+      browserName:window.navigator.userAgentData.brands[2].brand,
+      browserVersion:window.navigator.userAgentData.brands[2].version,
+      
+      browserAppName: window.navigator.appName,
+      browserEngine: window.navigator.product,
+      browserVersion1a: window.navigator.appVersion,
+      browserVersion1b: navigator.userAgent,
+  }
+  console.log(window.navigator.userAgentData.brands[2])
