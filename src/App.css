@@ -1,9 +1,9 @@
 .App {
   text-align: justify;
 }
-.App >div{
+/* .App >div{
   width: 50%;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -44,4 +44,8 @@
 .subdiv{
   flex-grow: 1;
   flex-basis: 50%;
+}
+
+.rightSide{
+  text-align: right;
 }
