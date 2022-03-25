@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## In the project directory, you can run:
 
-# step 1:open repository inside the syngenta_asssignment
+# step 1:Download and open repository, inside the syngenta_asssignment
             run command 
             ### `npm init`   //for installing packages 
 # step 2: now you can go with the next command
