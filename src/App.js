@@ -54,9 +54,7 @@ const getBrowserInfo=()=>{
   fetch('https://api.apicagent.com/?ua=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_5)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/89.0.4389.114%20Safari/537.36')
   .then( (response) => {
   response.json().then( (data) => {
-  // console.log(data)
     setBrowserInfo(data)
-  
   console.log(data)
   })
   })
